@@ -1,0 +1,9 @@
+project_name: portreuse
+builds:
+  - binary: portreuse
+    goos:
+      - linux
+      - darwin
+    goarch:
+      - amd64
+      - arm64
